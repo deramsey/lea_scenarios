@@ -1,0 +1,225 @@
+[
+  {
+    "text": "FADE IN: The sun shines brightly over a bustling urban landscape. People move hurriedly, oblivious to the tension brewing beneath the surface.",
+    "choices": [ {
+      "text": "Continue",
+      "next": 1,
+      "isCorrect": true
+    }]
+  },
+  {
+    "text": "DETECTIVE JAMES WILSON (30s), a dedicated officer with a strong moral compass, reviews case files at his desk. His partner, OFFICER LUCAS REED (30s), leans against the wall, flipping through a magazine.\nLUCAS\nYou know, James, sometimes you gotta bend the rules to get the job done.\nJAMES\nThat’s not how it works, Lucas. We uphold the law.\nStudents: What type of misconduct is Lucas suggesting?",
+    "choices": [
+      {
+        "text": "A) Bribery",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "B) Bending the rules",
+        "next": 2,
+        "isCorrect": true
+      },
+      {
+        "text": "C) Intimidation",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "D) Corruption",
+        "next": 10,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "A tense staff meeting. CAPTAIN RIVERA (50s) addresses the team, highlighting a rise in crime rates.\nCAPTAIN RIVERA\nWe need to be more proactive. Get creative with your tactics.\nJAMES\n(raising his hand)\nWith all due respect, Captain, we can’t sacrifice our integrity.\nStudents: What pressures might officers feel in this situation?",
+    "choices": [
+      {
+        "text": "A) Desire for personal gain",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "B) Pressure to compromise integrity",
+        "next": 3,
+        "isCorrect": true
+      },
+      {
+        "text": "C) Need for public approval",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "D) Fear of losing their job",
+        "next": 10,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "James and Lucas stake out a known drug hotspot. They witness a drug deal going down. Lucas nudges James, excited.\nLUCAS\nLet’s move in.\nJAMES\nWe need backup. This isn’t safe.\nLUCAS\nWhat if we just scare them? A little intimidation never hurt anyone.\nStudents: What type of misconduct does Lucas’s suggestion involve?",
+    "choices": [
+      {
+        "text": "A) Corruption",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "B) Intimidation",
+        "next": 4,
+        "isCorrect": true
+      },
+      {
+        "text": "C) Bribery",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "D) Abuse of power",
+        "next": 10,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "James is at his desk, reflecting on the night before. A MESSAGE pops up on his computer: “Need your help. Call me.” It’s from LUCAS.\nINT. ABANDONED WAREHOUSE - NIGHT\nLucas meets with a GROUP OF CROOKS, exchanging information. James arrives, clearly uncomfortable.\nJAMES\nWhat are you doing, Lucas?\nLUCAS\nRelax, we’re just gathering intel.\nLucas hands over a small sum of money for information. James watches, horrified.\nJAMES\nWe can’t pay them! That’s misconduct.\nStudents: What kind of misconduct is happening here?",
+    "choices": [
+      {
+        "text": "A) Abuse of power",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "B) Police bribery",
+        "next": 5,
+        "isCorrect": true
+      },
+      {
+        "text": "C) Intimidation",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "D) Excessive force",
+        "next": 10,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "James sits alone, staring at a bottle of whiskey. He picks up his phone and calls Lucas.\nJAMES\nI can’t do this anymore.\nLUCAS (V.O.)\n(smirking)\nYou’re already in, James. No turning back now.\nStudents: How does peer pressure contribute to misconduct?",
+    "choices": [
+      {
+        "text": "A) Encourages unethical behavior",
+        "next": 6,
+        "isCorrect": true
+      },
+      {
+        "text": "B) Strengthens resolve",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "C) Promotes teamwork",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "D) Creates transparency",
+        "next": 10,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "James’s demeanor has changed. He’s more aggressive, bending the rules, and showing signs of corruption. He finds himself involved in an illegal drug bust, pocketing evidence for personal gain.\nStudents: What is the nature of James’s misconduct?",
+    "choices": [
+      {
+        "text": "A) Theft of evidence",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "B) Corruption",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "C) Both A and B",
+        "next": 7,
+        "isCorrect": true
+      },
+      {
+        "text": "D) Misreporting",
+        "next": 10,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "James meets with shady characters, discussing more illicit activities. A SENSE OF DREAD fills the air.\nSHADY CHARACTER\nYou’re one of us now. Just don’t get caught.\nJames smirks, but a flicker of doubt crosses his face.\nStudents: What consequences could James face for this association?",
+    "choices": [
+      {
+        "text": "A) Legal action",
+        "next": 8,
+        "isCorrect": true
+      },
+      {
+        "text": "B) Promotion",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "C) Public acclaim",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "D) Job security",
+        "next": 10,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "James is called into Captain Rivera’s office. Two INTERNAL AFFAIRS OFFICERS stand waiting.\nCAPTAIN RIVERA\nJames, we need to talk about your recent activities.\nJames’s heart races as he realizes he’s been set up. He feels the walls closing in.\nINTERNAL AFFAIRS OFFICER\n(somber)\nYou’ve crossed a line, Detective.\nStudents: What types of misconduct have been highlighted in James’s story?",
+    "choices": [
+      {
+        "text": "A) Intimidation and bribery",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "B) Theft and corruption",
+        "next": 10,
+        "isCorrect": false
+      },
+      {
+        "text": "C) Both A and B",
+        "next": 9,
+        "isCorrect": true
+      },
+      {
+        "text": "D) None of the above",
+        "next": 10,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "James walks out of the station, defeated. His badge is stripped away.",
+    "choices": [],
+    "finalMessage": "The story of Detective James Wilson serves as a cautionary tale about the slippery slope of ethical compromises in law enforcement. Even small ethical violations can lead to more serious corruption over time."
+  },
+  {
+    "text": "Incorrect.",
+    "choices": [
+      {
+        "text": "Start over.",
+        "next": 1,
+        "isCorrect": false
+      }
+    ]
+  }
+]

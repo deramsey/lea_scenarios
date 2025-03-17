@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Scenario Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header>
+            <h1>Ethical Scenario Editor</h1>
+            <div class="header-actions">
+                <button id="newScenarioBtn" class="primary-button">New Scenario</button>
+                <button id="importBtn">Import JSON</button>
+                <input type="file" id="fileInput" accept=".json" style="display: none;">
+                <button id="exportBtn">Export JSON</button>
+                <button id="previewBtn">Preview Scenario</button>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Dashboard View -->
+            <div id="dashboardView" class="view">
+                <h2>Your Scenarios</h2>
+                <div class="scenario-list" id="scenarioList">
+                    <!-- Scenarios will be listed here -->
+                    <div class="empty-state">
+                        <p>No scenarios yet. Create a new one to get started!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Editor View -->
+            <div id="editorView" class="view" style="display: none;">
+                <div class="editor-header">
+                    <input type="text" id="scenarioTitle" placeholder="Untitled Scenario" class="scenario-title-input">
+                    <div class="editor-actions">
+                        <button id="saveBtn">Save</button>
+                        <button id="backBtn">Back to Dashboard</button>
+                    </div>
+                </div>
+
+                <div class="editor-container">
+                    <!-- Scenario Node Editor -->
+                    <div class="node-editor-panel">
+                        <h3>Scenario Flow</h3>
+                        <div id="nodeCanvas" class="node-canvas">
+                            <!-- Visual node representation will be here -->
+                        </div>
+                        <div class="node-controls">
+                            <button id="addNodeBtn">Add New Node</button>
+                            <button id="clearCanvasBtn">Clear Canvas</button>
+                        </div>
+                    </div>
+
+                    <!-- Node Content Editor -->
+                    <div class="content-editor-panel">
+                        <div id="noNodeSelected" class="empty-editor-state">
+                            <p>Select a node to edit its content or create a new node</p>
+                        </div>
+                        
+                        <div id="nodeEditor" style="display: none;">
+                            <h3>Node Content</h3>
+                            <div class="form-group">
+                                <label for="nodeText">Scenario Text:</label>
+                                <textarea id="nodeText" rows="4" placeholder="Describe the scenario..."></textarea>
+                            </div>
+                            
+                            <div class="choices-section">
+                                <div class="choices-header">
+                                    <h4>Choices</h4>
+                                    <button id="addChoiceBtn" class="small-button">+ Add Choice</button>
+                                </div>
+                                <div id="choicesContainer" class="choices-container">
+                                    <!-- Choices will be added here -->
+                                </div>
+                            </div>
+                            
+                            <div class="form-group final-message" id="finalMessageContainer" style="display: none;">
+                                <label for="finalMessage">Final Message (shown if this is an ending):</label>
+                                <textarea id="finalMessage" rows="3" placeholder="Educational feedback or conclusion..."></textarea>
+                            </div>
+                            
+                            <div class="node-type-toggle">
+                                <label>
+                                    <input type="checkbox" id="isEndingNode"> 
+                                    This is an ending node (no choices)
+                                </label>
+                            </div>
+                            
+                            <div class="node-editor-actions">
+                                <button id="updateNodeBtn">Update Node</button>
+                                <button id="deleteNodeBtn" class="danger-button">Delete Node</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Preview Mode -->
+            <div id="previewView" class="view" style="display: none;">
+                <div class="preview-header">
+                    <h2>Scenario Preview</h2>
+                    <button id="exitPreviewBtn">Exit Preview</button>
+                </div>
+                
+                <div class="preview-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="previewProgress"></div>
+                    </div>
+                    
+                    <div class="scenario-text" id="previewText"></div>
+                    
+                    <div class="choices-container" id="previewChoices"></div>
+                    
+                    <div class="preview-controls">
+                        <button id="restartPreviewBtn">Restart Preview</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Validation Messages -->
+        <div id="validationMessage" class="validation-message"></div>
+    </div>
+
+    <!-- Template for choice item -->
+    <template id="choiceTemplate">
+        <div class="choice-item">
+            <div class="choice-content">
+                <input type="text" class="choice-text" placeholder="Enter choice text...">
+                <div class="choice-properties">
+                    <div class="choice-property">
+                        <label>Next Node:</label>
+                        <select class="next-node-select"></select>
+                    </div>
+                    <div class="choice-property">
+                        <label>
+                            <input type="checkbox" class="is-correct-checkbox"> 
+                            This is the correct ethical choice
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button class="remove-choice-btn">&times;</button>
+        </div>
+    </template>
+
+    <!-- Template for node in canvas -->
+    <template id="nodeTemplate">
+        <div class="node">
+            <div class="node-header">
+                <span class="node-id"></span>
+                <span class="node-type"></span>
+            </div>
+            <div class="node-content"></div>
+        </div>
+    </template>
+
+    <!-- Template for scenario list item -->
+    <template id="scenarioItemTemplate">
+        <div class="scenario-item">
+            <div class="scenario-item-info">
+                <h3 class="scenario-item-title"></h3>
+                <p class="scenario-item-stats"></p>
+            </div>
+            <div class="scenario-item-actions">
+                <button class="edit-scenario-btn">Edit</button>
+                <button class="duplicate-scenario-btn">Duplicate</button>
+                <button class="delete-scenario-btn">&times;</button>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
