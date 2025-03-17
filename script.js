@@ -23,7 +23,7 @@ const restartButton = document.getElementById("restartButton");
 async function initApplication() {
     try {
         // Load scenario data
-        const response = await fetch('james.json');
+        const response = await fetch('ethical_scenario_identifying_ethical_police_misconduct.json');
         if (!response.ok) {
             throw new Error('Failed to load scenarios.json');
         }
