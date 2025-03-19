@@ -1,0 +1,122 @@
+[
+  {
+    "text": "In the field of criminal justice, ethical decision-making is essential for maintaining integrity, fairness, and justice. This interactive exercise presents a series of scenarios that challenge you to identify which ethical system is at play based on the choices available to the characters involved. By analyzing these situations, you will gain a deeper understanding of how different ethical frameworks guide decisions in real-world contexts.\n\nInstructions\nRead Each Scenario Carefully: Each scenario provides a brief context involving a character faced with an ethical dilemma.\nSelect Your Answer: For each scenario, choose the option (A or B) that best reflects the ethical system represented by the character's decision.\nReview the Correct Answers: After making your selections, refer to the correct answer provided to see if choice aligned with the various ethical systems discussed.",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 1,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "Officer Carter is called to a robbery in progress. Upon arrival, he finds the suspect fleeing the scene. The suspect drops a gun while trying to escape. Officer Carter has the option to apprehend the suspect using force, but he remembers the department's policy prohibiting the use of excessive force. \n\nWhich of the following choices aligns with a Deontological Ethics system?",
+    "choices": [
+      {
+        "text": "Use force to subdue the suspect and prevent their escape.",
+        "next": 2,
+        "isCorrect": false
+      },
+      {
+        "text": "Follow the department's policy and attempt to apprehend the suspect without using excessive force, even if it means the suspect might get away.",
+        "next": 2,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "Prosecutor Nguyen is faced with a case involving a drug dealer who has been selling to minors. The dealer has a history of addiction and claims that they are trying to turn their life around. Nguyen must decide on the prosecution strategy.\n\nWhich of the following choices aligns with a Teleological Ethics system?",
+    "choices": [
+      {
+        "text": "Push for the maximum sentence to send a strong message to the community and deter future offenses.",
+        "next": 3,
+        "isCorrect": false
+      },
+      {
+        "text": "Offer a plea deal that includes rehabilitation, arguing that this will benefit society by helping the dealer recover and reduce recidivism.",
+        "next": 3,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "Judge Ramirez is presiding over a case involving a business owner who violated environmental regulations. The law mandates a significant fine, but the business owner argues that they were unaware of the regulations and that punishing them would hurt their employees.\n\nWhich of the following choices aligns with a Ethical Formalism system?",
+    "choices": [
+      {
+        "text": "Impose the full fine as mandated by law, adhering strictly to the regulations.",
+        "next": 4,
+        "isCorrect": true
+      },
+      {
+        "text": "Reduce the fine, considering the business owner’s intentions and the potential harm to employees.",
+        "next": 4,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "A police chaplain is approached by an officer who is grappling with the decision to report a fellow officer for misconduct. The officer believes that loyalty to colleagues is paramount, but the chaplain feels that upholding the truth is essential.\n\nWhich of the following choices aligns with a Religion-Based Ethics system?",
+    "choices": [
+      {
+        "text": "Advise the officer to remain loyal to their colleague and not report the misconduct.",
+        "next": 5,
+        "isCorrect": false
+      },
+      {
+        "text": "Encourage the officer to report the misconduct, emphasizing that integrity and accountability are aligned with their religious beliefs.",
+        "next": 5,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "A community faces a decision about whether to allow a factory that pollutes the local river to expand its operations. Some residents argue for the economic benefits, while others emphasize the right to a clean environment as a fundamental natural law.\n\nWhich of the following choices aligns with a Natural Law Ethics system?",
+    "choices": [
+      {
+        "text": "Approve the factory’s expansion to promote economic growth.",
+        "next": 6,
+        "isCorrect": false
+      },
+      {
+        "text": "Reject the expansion based on the natural right of the community to have access to a clean and healthy environment. (",
+        "next": 6,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "A student discovers that a classmate has been cheating on exams. The student struggles with whether to report the cheating or confront the classmate directly.\n\nWhich of the following choices aligns with a Ethics of Virtue system?",
+    "choices": [
+      {
+        "text": "Report the classmate to the instructor, believing that honesty and integrity are essential virtues",
+        "next": 7,
+        "isCorrect": true
+      },
+      {
+        "text": "Speak directly to the classmate about their actions, encouraging them to take responsibility for their behavior.",
+        "next": 7,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "A social worker is assigned to help a family facing eviction due to financial struggles. The worker must decide how best to advocate for the family's needs.\n\nWhich of the following choices aligns with a Ethics of Care system?",
+    "choices": [
+      {
+        "text": "Focus solely on finding financial assistance for the family to avoid eviction.",
+        "next": 8,
+        "isCorrect": false
+      },
+      {
+        "text": "Work with the family to create a comprehensive plan that includes emotional support, financial education, and community resources.",
+        "next": 8,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "After reviewing the scenarios and making your selections, reflect on how the different ethical systems influence decision-making in the criminal justice field. Understanding these frameworks will enhance your ability to navigate complex ethical dilemmas in your future career.",
+    "choices": [],
+    "finalMessage": "This is non-graded self-assessment activity. The following grade will not appear in your gradebook."
+  }
+]
