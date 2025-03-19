@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Instructions:\nAs you follow the story of Officer Davis and the events at Crestwood Correctional Facility, you will encounter situations that illustrate various types of misconduct. After certain scenes, you will be prompted with multiple-choice questions to identify the type of misconduct being depicted. Choose the correct answer based on your understanding of ethical standards and professional conduct in correctional settings.",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 1,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "[Scene 1: Morning Briefing]\n\n(The camera opens in the staff room where correctional officers gather for their morning briefing.)\n\nWarden:\n“Good morning, everyone. We need to address some recent complaints about officer conduct. We must maintain professionalism and avoid favoritism. Let’s keep our focus on security and rehabilitation.”\n\n(As the briefing concludes, Officers Davis and Martinez exchange glances, hinting at underlying tensions.)",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 2,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "[Scene 2: Rounds in the Cell Block]\n\n(Officer Davis begins the rounds. As you walk down the corridor, you notice Officer Martinez talking privately with Inmate Roberts, a known troublemaker.)\n\nOfficer Davis:\n(to self) “What are they discussing? I should keep an eye on this.”\n\n(Officer Davis approaches them.)\n\nOfficer Davis:\n“Everything okay here? What are you discussing?”\n\nInmate Roberts:\n“Just some questions about the program, Officer.”\n\nOfficer Martinez:\n“It’s nothing. Just helping him out.”\n\n(Davis feels uneasy but decides to monitor the situation.)\n\nScenario Question: What type of misconduct is Officer Martinez potentially exhibiting by speaking privately with Inmate Roberts?",
+    "choices": [
+      {
+        "text": "Use of Force",
+        "next": 3,
+        "isCorrect": false
+      },
+      {
+        "text": "Favoritism",
+        "next": 3,
+        "isCorrect": false
+      },
+      {
+        "text": "Inappropriate Relationship",
+        "next": 3,
+        "isCorrect": true
+      },
+      {
+        "text": "Bribery",
+        "next": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "[Scene 3: Conflict Erupts]\n\n(Later, Officer Davis witnesses Inmate Roberts yelling at another inmate. Officer Martinez steps in.)\n\nOfficer Davis:\n“Roberts, calm down! Let’s talk this out instead of fighting.”\n\n(Martinez uses a firm tone but doesn't resolve the situation. The yelling escalates.)",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 4,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "[Scene 4: Handling Relationships]\n\n(After the incident, Officer Davis sees Officer Martinez giving Roberts a special food item from the kitchen.)\n\nOfficer Davis:\n(approaching Martinez) “You can’t be giving special treatment like that! It’s not right.”\n\nOfficer Martinez:\n“It’s just food. I’m helping out.”\n\n(Davis shakes his head, concerned about the favoritism.)\n\nScenario Question:\nWhat type of misconduct is Officer Martinez engaging in by giving Roberts special food?",
+    "choices": [
+      {
+        "text": "Misleading the Court",
+        "next": 5,
+        "isCorrect": false
+      },
+      {
+        "text": "Use of Force",
+        "next": 5,
+        "isCorrect": false
+      },
+      {
+        "text": "Favoritism",
+        "next": 5,
+        "isCorrect": true
+      },
+      {
+        "text": "Inappropriate Relationship",
+        "next": 5,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "[Scene 5]\n\n(Later, Inmate Roberts approaches Officer Davis in a private area.)\n\nInmate Roberts:\n“Hey, Officer Davis, I can help you out with some information if you can get me some extra privileges.”\n\nOfficer Davis:\n“Roberts, that’s not how things work. I’m reporting this.”\n\n(Roberts scowls and walks away, frustrated.)\n\nScenario Question: What type of misconduct is being suggested by Inmate Roberts?",
+    "choices": [
+      {
+        "text": "Use of Force",
+        "next": 6,
+        "isCorrect": false
+      },
+      {
+        "text": "Favoritism",
+        "next": 6,
+        "isCorrect": false
+      },
+      {
+        "text": "Inappropriate Relationship",
+        "next": 6,
+        "isCorrect": false
+      },
+      {
+        "text": "Bribery",
+        "next": 6,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "[Scene 6: End of Shift Reflection]\n\n(As the shift comes to an end, Officer Davis reflects on the day’s events.)\n\nOfficer Davis:\n(to self) “Today was rough. I need to maintain boundaries and professionalism. This job is about security, not favoritism or personal relationships.”",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 7,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "[Conclusion:]\n\n(The screen fades to black.)",
+    "choices": [],
+    "finalMessage": "[Conclusion:]\n\n(The screen fades to black.)\n\nNarrator:\n“Today’s scenario highlighted critical ethical dilemmas faced by correctional officers. Recognizing and addressing misconduct is essential for maintaining integrity, safety, and professionalism within correctional facilities. Your choices not only affect your career but also the well-being of the inmates and the overall environment of the facility. Strive to uphold the highest ethical standards in your role.”"
+  }
+]

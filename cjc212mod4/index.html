@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Scenario Identifying Ethical Police Misconduct</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CJC 212 - Module 4</h1>
+        </header>
+        
+        <div class="scenario-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            
+            <div class="scenario-text" id="scenarioText"></div>
+            
+            <div class="audio-controls">
+                <button id="playButton">🔊 Play Narration</button>
+                <button id="pauseButton" style="display: none;">⏸️ Pause</button>
+                <button id="stopButton" style="display: none;">⏹️ Stop</button>
+            </div>
+            
+            <div class="choices-container" id="choicesContainer"></div>
+            
+            <div class="score-container" id="scoreContainer">
+                <h2>Simulation Complete</h2>
+                <p>Your final score:</p>
+                <div class="score-value" id="scoreValue">0</div>
+                <div class="score-message" id="scoreMessage"></div>
+                <button class="restart-button" id="restartButton">Restart Simulation</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Ethical Decision-Making Simulator for Law Enforcement Training</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

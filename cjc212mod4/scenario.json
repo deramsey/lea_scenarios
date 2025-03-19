@@ -1,0 +1,152 @@
+[
+  {
+    "text": "Introduction: \n\nIn this interactive scenario, students will explore ethical misconduct in a courtroom setting. Through a dramatized script, participants will identify different types of misconduct exhibited by defense attorneys, prosecutors, and judges. Pay attention to the actions and motivations of the characters as you respond to questions that prompt critical thinking about ethical principles in the legal system.",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 1,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "INSTRUCTIONS\n\nAs you read through the script, you will encounter prompts that ask you to select the type of misconduct being depicted. Choose the most appropriate answer from the options provided. After each selection, the correct answer will be revealed. Engage with the material and reflect on the ethical implications of the characters’ actions.",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 2,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "SCENARIO\n\nLocation. COURTROOM - DAY\n\nThe courtroom is filled with spectators. At the front, MR. THOMPSON, a well-dressed businessman, sits nervously at the defense table, flanked by his attorney, MR. SMITH. On the other side, PROSECUTOR MS. JOHNSON stands confidently, preparing her notes. The JUDGE presides over the proceedings.\n\nJUDGE (looking over the room) Court is now in session. We will continue with the trial of Mr. Thompson.\n\nThe audience murmurs in anticipation. Ms. Johnson stands to address the jury.\n\nMS. JOHNSON Ladies and gentlemen of the jury, the evidence will show that Mr. Thompson is guilty of embezzlement. He has used his position to defraud hard-working citizens.\n\nThe jury watches intently. Mr. Smith shifts uncomfortably in his seat.\n\nWhat type of misconduct is being depicted here?",
+    "choices": [
+      {
+        "text": "Graft",
+        "next": 3,
+        "isCorrect": false
+      },
+      {
+        "text": "Bias",
+        "next": 3,
+        "isCorrect": true
+      },
+      {
+        "text": "Misleading the court",
+        "next": 3,
+        "isCorrect": false
+      },
+      {
+        "text": "Exploiting the case",
+        "next": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "Scenario question feedback: Ms. Johnson is biased in her prosecution, focusing solely on securing a conviction",
+    "choices": [
+      {
+        "text": "Continue Scenario",
+        "next": 4,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "PROSECUTOR'S OFFICE - FLASHBACK\n\nMs. Johnson sits at her desk, glancing at a newspaper article that praises her recent win in a high-profile case. Her phone rings; it’s a BUSINESSMAN from the local chamber of commerce.\n\nBUSINESSMAN (V.O.) You keep winning, Ms. Johnson, and we’ll keep supporting your campaign. Let’s make sure this case goes smoothly.\n\nMs. Johnson smiles, her ambition clear.",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 5,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "COURTROOM - DAY\n\nMR. SMITH (standing up) Your Honor, I’d like to address a serious matter regarding the missing video evidence that could exonerate my client.\n\nThe judge nods, signaling for him to continue.\n\nJUDGE Proceed.\n\nMR. SMITH The prosecution has failed to disclose crucial evidence—a video that could prove Mr. Thompson’s innocence. It seems that this tape has mysteriously gone missing.\n\nMs. Johnson’s expression shifts, but she quickly regains her composure.\n\nMS. JOHNSON (raising her voice) That evidence is irrelevant, Your Honor! The defense has no solid proof to suggest otherwise.\n\nMr. Smith narrows his eyes, sensing the tension.\n\nWhat type of misconduct is being depicted here?",
+    "choices": [
+      {
+        "text": "Graft",
+        "next": 6,
+        "isCorrect": false
+      },
+      {
+        "text": "Bias",
+        "next": 6,
+        "isCorrect": false
+      },
+      {
+        "text": "Misleading the court",
+        "next": 6,
+        "isCorrect": true
+      },
+      {
+        "text": "Exploiting the case",
+        "next": 6,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "Scenario question feedback:\n\nMs. Johnson is misleading the court by claiming the evidence is irrelevant and not addressing its disappearance.",
+    "choices": [
+      {
+        "text": "Continue Scenario",
+        "next": 7,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "MR. SMITH But the missing tape is key! This is about justice, not just securing a conviction!\n\nThe jury whispers among themselves, intrigued by the accusation.\n\nCUT TO: INT. BACK ROOM - DAY (FLASHBACK)\n\nMs. Johnson sits with her team, a stack of campaign donations on the table. She looks at a printed email from the BUSINESSMAN.\n\nMS. JOHNSON (firmly) We can’t let this tape come to light. It’s too risky for the case—and my career.\n\nHer colleagues nod in agreement, the pressure mounting.",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 8,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "COURTROOM - DAY\n\nMr. Smith, sensing the weight of the situation, addresses the jury directly.\n\nMR. SMITH How can we trust the integrity of this trial when the prosecutor is influenced by her own ambitions?\n\nMs. Johnson glares at him, clearly unsettled.\n\nMS. JOHNSON (raising an eyebrow) Your Honor, I object to this line of questioning. It is purely speculative!\n\nJUDGE (skeptically) Overruled. The jury will consider the prosecutor’s motivations.\n\nThe atmosphere is thick with tension. Mr. Smith stands firm, his resolve unwavering.",
+    "choices": [
+      {
+        "text": "Graft",
+        "next": 9,
+        "isCorrect": true
+      },
+      {
+        "text": "Bias",
+        "next": 9,
+        "isCorrect": false
+      },
+      {
+        "text": "Misleading the court",
+        "next": 9,
+        "isCorrect": false
+      },
+      {
+        "text": "Exploiting the case",
+        "next": 9,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "text": "Scenario Question Feedback:\n\nMs. Johnson's willingness to sacrifice justice for campaign contributions exemplifies graft.",
+    "choices": [
+      {
+        "text": "Continue",
+        "next": 10,
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "text": "MR. SMITH I urge you to look beyond the surface. Justice demands we seek the truth, not a conviction at any cost.\n\nThe jury looks thoughtfully at each other, the implications of the situation weighing heavily.",
+    "choices": [],
+    "finalMessage": "This scenario encourages participants to think critically about ethical dilemmas in the legal field.\nAs you reflect on the scenario What actions should Mr. Smith take to address the conflict of interest and ensure a fair trial?\nThis scenario is a non-graded self-assessment activity."
+  }
+]
